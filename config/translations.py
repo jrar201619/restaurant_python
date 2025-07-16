@@ -25,6 +25,7 @@ TRANSLATIONS = {
         "image_files": "Archivos de Imagen",
         "no_image_preview": "Sin vista previa de imagen",
         "error_loading_image": "Error al cargar la imagen.",
+        "icon_path_error": "Error: La ruta del icono no es válida. Asegúrate de que el archivo exista.", # NEW
 
         # Confirmation Dialogs
         "confirm_delete_title": "Confirmar Eliminación",
@@ -39,7 +40,7 @@ TRANSLATIONS = {
         "menu_language": "Idioma",
         "menu_language_es": "Español",
         "menu_language_en": "Inglés",
-        "menu_logout": "Cerrar Sesión", # Added logout
+        "menu_logout": "Cerrar Sesión",
 
         # Product Management Module
         "product_manager_title": "Gestión de Productos",
@@ -50,15 +51,15 @@ TRANSLATIONS = {
         "lbl_image_path": "Ruta de Imagen:",
         "lbl_variants": "Variantes:",
         "lbl_modifiers": "Modificadores:",
-        "lbl_is_available": "¿Está Disponible?", # Added availability checkbox
+        "lbl_is_available": "¿Está Disponible?",
 
         # Product Management Buttons
         "btn_add_category": "Añadir Categoría",
-        "btn_add_category_compact": "Añadir Cat.", # For smaller buttons/UI
+        "btn_add_category_compact": "Añadir Cat.",
         "btn_add_product": "Añadir Producto",
         "btn_add_variant": "Añadir Variante",
         "btn_add_modifier": "Añadir Modificador",
-        "btn_clear_form": "Limpiar Formulario", # Added clear form button
+        "btn_clear_form": "Limpiar Formulario",
 
         # Dialog Titles for Product Management
         "dialog_add_category_title": "Añadir Nueva Categoría",
@@ -81,23 +82,23 @@ TRANSLATIONS = {
         "option_global_modifier": "Global",
         "option_product_modifier": "Producto Específico",
         "option_variant_modifier": "Variante Específica",
-        "lbl_product_selection": "Seleccionar Producto:", # For modifier application
-        "lbl_variant_selection": "Seleccionar Variante:", # For modifier application
-        "tree_global_modifiers": "Modificadores Globales", # For treeview header/label
+        "lbl_product_selection": "Seleccionar Producto:",
+        "lbl_variant_selection": "Seleccionar Variante:",
+        "tree_global_modifiers": "Modificadores Globales",
 
         # Treeview Column Headers (Product Management)
         "tree_col_id": "ID",
-        "tree_col_name_es": "Nombre (ES)", # Added for clarity
-        "tree_col_name_en": "Nombre (EN)", # Added for clarity
+        "tree_col_name_es": "Nombre (ES)",
+        "tree_col_name_en": "Nombre (EN)",
         "tree_col_category": "Categoría",
         "tree_col_product": "Producto",
         "tree_col_variant": "Variante",
         "tree_col_modifier": "Modificador",
         "tree_col_price": "Precio",
-        "tree_col_base_price": "Precio Base", # Added for clarity
-        "tree_col_adjustment": "Ajuste", # Added for clarity
+        "tree_col_base_price": "Precio Base",
+        "tree_col_adjustment": "Ajuste",
         "tree_col_actions": "Acciones",
-        "tree_col_available": "Disponible", # Added for availability
+        "tree_col_available": "Disponible",
 
         # Product Management Context Menu Options
         "context_edit": "Editar",
@@ -113,7 +114,7 @@ TRANSLATIONS = {
         "msg_no_selection": "Por favor, selecciona un elemento para esta acción.",
         "msg_item_not_found": "Elemento no encontrado.",
         "msg_delete_failed": "No se pudo eliminar el elemento.",
-        "msg_fields_required": "Todos los campos de nombre son obligatorios.", # Refined
+        "msg_fields_required": "Todos los campos de nombre son obligatorios.",
         "msg_save_failed": "No se pudo guardar el elemento.",
         "msg_price_positive": "El precio debe ser un número positivo.",
         "msg_invalid_price": "Precio inválido. Por favor, introduce un número válido.",
@@ -121,9 +122,9 @@ TRANSLATIONS = {
         "msg_invalid_quantity": "Cantidad inválida. Introduce un número entero válido.",
         "msg_image_copy_failed": "Fallo al copiar la imagen.",
         "msg_not_implemented": "Módulo aún no implementado.",
-        "msg_select_category": "Por favor, selecciona una categoría.", # General select category
-        "msg_select_product": "Por favor, selecciona un producto.", # General select product
-        "msg_select_variant": "Por favor, selecciona una variante.", # General select variant
+        "msg_select_category": "Por favor, selecciona una categoría.",
+        "msg_select_product": "Por favor, selecciona un producto.",
+        "msg_select_variant": "Por favor, selecciona una variante.",
 
 
         # Product Management Specific Messages
@@ -175,9 +176,9 @@ TRANSLATIONS = {
         "lbl_modifier_quantity": "Cantidad de Modificador:",
         "msg_sale_successful": "Venta realizada con éxito.",
         "msg_no_items_in_order": "No hay ítems en el pedido.",
-        "msg_item_added_to_order": "Elemento añadido al pedido.", # Added confirmation
-        "msg_item_removed_from_order": "Elemento quitado del pedido.", # Added confirmation
-        "msg_product_selection_required": "Por favor, selecciona un producto para añadir al pedido.", # Sales specific
+        "msg_item_added_to_order": "Elemento añadido al pedido.",
+        "msg_item_removed_from_order": "Elemento quitado del pedido.",
+        "msg_product_selection_required": "Por favor, selecciona un producto para añadir al pedido.",
 
         # Reports Module
         "reports_title": "Módulo de Reportes",
@@ -200,18 +201,18 @@ TRANSLATIONS = {
         "report_col_item_name": "Artículo",
         "report_col_modifier_name": "Modificador",
         "msg_invalid_date_range": "La fecha de inicio no puede ser posterior a la fecha de fin.",
-        "msg_no_sales_found": "No se encontraron ventas para el rango de fechas seleccionado.", # Added for reports
+        "msg_no_sales_found": "No se encontraron ventas para el rango de fechas seleccionado.",
 
         # Settings Module
         "settings_title": "Configuración",
-        "lbl_currency": "Moneda:", # Added for settings
-        "lbl_tax_rate": "Tasa de Impuestos (%):", # Added for settings
-        "btn_save_settings": "Guardar Configuración", # Added for settings
-        "msg_settings_saved": "Configuración guardada con éxito.", # Added for settings
-        "msg_error_saving_settings": "Error al guardar la configuración.", # Added for settings
-        "msg_invalid_tax_rate": "Por favor, introduce una tasa de impuestos válida (número).", # Added for settings
+        "lbl_currency": "Moneda:",
+        "lbl_tax_rate": "Tasa de Impuestos (%):",
+        "btn_save_settings": "Guardar Configuración",
+        "msg_settings_saved": "Configuración guardada con éxito.",
+        "msg_error_saving_settings": "Error al guardar la configuración.",
+        "msg_invalid_tax_rate": "Por favor, introduce una tasa de impuestos válida (número).",
         "lbl_about": "Acerca de",
-        "about_text": "Sistema de Gestión de Ventas v1.0\nDesarrollado por [Tu Nombre/Empresa]", # Added developer info
+        "about_text": "Sistema de Gestión de Ventas v1.0\nDesarrollado por [Tu Nombre/Empresa]",
         "btn_about": "Acerca de...",
     },
     "en": {
@@ -233,6 +234,7 @@ TRANSLATIONS = {
         "image_files": "Image Files",
         "no_image_preview": "No image preview",
         "error_loading_image": "Error loading image.",
+        "icon_path_error": "Error: Icon path is invalid. Ensure the file exists.", # NEW
 
         # Confirmation Dialogs
         "confirm_delete_title": "Confirm Deletion",
@@ -360,7 +362,6 @@ TRANSLATIONS = {
         "msg_error_updating_modifier": "Error updating modifier.",
         "msg_item_deleted_successfully": "Item deleted successfully.",
         "msg_error_deleting_item": "Error deleting item.",
-
 
         # Sales Module
         "sales_title": "Sales Module",
